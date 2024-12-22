@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeHelp Bootcamp Application</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header-graphics {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #222;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .card2 {
+            background: #fd5;
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            color: #000;
+        }
+
+        .card h2{
+            margin-top: 0;
+            color: #000;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ffd700;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #111;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WeHelp Bootcamp Application 📝</h1>
+        <img class="header-graphics" src="src/assets/banner-graphics2.svg" alt="Header Graphics">
+    </header>
+
+    <div class="content">
+        <div class="card2">
+            <h2>💡 12/22 申請提交資料用暫存站點 </h2>
+            <p>原先使用Vue.js建置專案並部署到Git Pages，由於一些狀況無法排解，使用branch強制推送，後導致部分原始檔（app.vue）等等丟失，原本建制的Pages修復中、無法預覽，故使用原生html+css暫存申請資料。</p>
+            <p>👉 原網站localhost:8080的完整預覽效果請參考😭 <a href="https://drive.google.com/file/d/1vwDxEEBkGNXgvf9TXs5R-wybaB_WU03h/view?usp=drive_link" target="_blank">此網址</a></p>
+        </div>
+
+        <div class="card">
+            <h2>個人簡介和申請動機 🙋‍♀️</h2>
+            <p>我來自心理學+HCI UI/UX背景，原職為上市櫃公司軟體Product Manager，感受到職涯發展和薪資天花板，因此重新思考職涯規劃。<br>其實我非常喜歡PM的工作，尤其是和工程師合作（同溫層感覺很重XD），把專案落地實踐富有意義和價值。<br>不過仔細思考，PM工作的成果比較間接，仍需透過大量跨單位協作，且技術的掌控權並不在PM，常有實作的結果和預期落差的情況。<br>第三份工作中，我接觸到GenAI，並自己透過GPT和Python解決專案數據清理或自動化流程的需求，如：轉換表格/模型訓練數據，由此發現軟體實作的樂趣。<br><br>多方面考量後，決定轉職軟體工程師，短期希望能做前端工程師或UI/UX工程師，中長期希望能做SA/TPM/全端工程師，並挑戰AR/VR或區塊鏈等新的載體和技術。</p>
+        </div>
+
+        <div class="card">
+            <h2>曾經做過哪些軟體工程相關的學習？👩‍💻</h2>
+            <ul>
+                <li>碩論Arduino實作互動裝置</li>
+                <li>北科大修習資料結構/離散數學課程</li>
+                <li>六角學院前端課程</li>
+                <li>Sandbox GameJam Taipei得獎（使用IDE不用寫code）</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>若參與WeHelp，如何安排學習時間？⏳</h2>
+            <p>目前我的狀態是待業+修資工大學學分班補足基礎知識，若有幸參與WeHelp，會預留15-20%學分課程學習時間（主修作業系統一堂）。<br>剩下時間，皆優先衝刺WeHelp的專案，分配如下：</p>
+            <ul>
+                <li>10%上課學習</li>
+                <li>10%定義專案目標/詢問GPT快速獲得知識框架</li>
+                <li>40%實作</li>
+                <li>30%測試-優化</li>
+                <li>5%上架發布</li>
+                <li>5%反思復盤</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>軟體技術日新月異，如何確定投入的領域是正確有回報的？🌟</h2>
+            <p>投入正確有回報，亦即做出來的成果能量化KPI並追蹤優化。<br>短期以轉職為例，投入領域正確有回報，即深耕的技能有市場需求，且做出來的專案能符合業界標準=能找到工作、獨立接案就是有回報。<br>中長期的話，我認為技術背後是源自於需求，有可能技術迭代更新，背後的需求是一致的。<br>我覺得比起追求單一技術的極致，還不如關注透過技術解決問題的方法和價值，以此我不會太擔心技術更迭造成的學習成本和投入浪費。</p>
+        </div>
+
+        <div class="card">
+            <h2>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？😥</h2>
+            <p>參加The Sandbox Gamejam黑客松時，由於隊友的電腦設備跑不動3D渲染IDE，基本上策劃、美術、開發95%都是我做的，而隊友卻針對某一些小的細節起爭執，讓我覺得很沒有幫助又浪費時間，受到DDL影響整個心情非常緊迫焦慮。<br>我先給自己一段時間冷靜，並且設立停損點，補充一點熱量和睡眠，讓大腦重新開機再繼續解決問題。<br>在思維上，我也分析自己的焦慮來源是高期待，因此反思自己有哪邊預期需要調整的地方，先做到60分再求好。<br>我是相對理性的人，遇到負面情緒時，通常先分析情緒源頭是內在或是外在影響？是否自己可以掌控？若為內在焦慮，則我會去閱讀、看影片或者找人聊聊，獲得新觀點以擴充自己對事情的理解。<br>若源自於外在不可控的因素，我會先給自己一段冷靜期，待情緒回復到相對和緩的狀態，再逐步分析問題的起因、卡點，串連資源、尋求專家建議，逐步排解優化，並設定停損點。<br>以此即便無法完全排除，也能大幅度改善目前的狀況，不會拖太多時間無效地處理當前的問題。</p>
+        </div>
+
+        <div class="card">
+            <h2>關於這份申請網頁，分享一件開發時的技術心得📘</h2>
+            <p>為了在短時間內做出兼具易用性和個人特色的設計，我使用了html-to-css這個Figma插件，迅速參考了範本的設計效果。<br>在實作時，想要讓網頁更活潑、開發更快速，因此詢問了現職是前端開發的班上同學。對方跟我說可以使用Vue框架和參考codepen上的動畫效果。<br>初步搜尋後，發現svg動畫透過原生css即可實現，可行性高、大幅提升網頁的互動性和美感，是C/P值很高的嘗試。<br>我覺得開發本身就是一個連結和探索的過程，每個人都有一點點獨特的domain knowledge，整合在一起大家就會擁有很多，1+1>>>2。</p>
+        </div>
+
+        <div class="card">
+            <h2>如何看待自身工作和整個社會群體的連結關係？🌏</h2>
+            <p>數位軟體是現代社會運作的基石，而好的軟體又需要充分結合「構想」和「實作」，缺一不可。<br>以前我的職能著重「構想」，未來，則希望透過擴充自己的能力，為更多人「實踐」便利與賦能的數位體驗。</p>
+        </div>
+
+        <div class="card">
+            <h2>其他想要對我們說的事情？💬</h2>
+            <p>隨著GenAI的興起，網路上隨處可見HC freeze、縮編等等說法，讓想踏入軟體開發的人很多不安。<br>我內心轉職的想法比較強烈，不論有沒有順利錄取，至少都藉著這個網頁申請摸索Vue和前端的基礎開發🥹<br>非常感謝WeHelp團隊願意在人才需求變革中，為軟體轉職人才指引了道路💖</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Alice Wu for WeHelp Application USE</p>
+    </footer>
+</body>
+</html>
